@@ -8,6 +8,11 @@ body {
     grid-template-rows: 300px 150px; */
     /* grid-template: filas / columnas */
     grid-template: 300px 150px 100px / 50% 200px 100px;
+    column-gap: 30px;
+    row-gap: 50px;
+    /* las lineas de arriba son equivalentes a: */
+    /* gap: filas/columnas */
+    gap: 20px 80px;
 }
 
 .item {
